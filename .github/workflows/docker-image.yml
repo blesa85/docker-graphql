@@ -32,6 +32,6 @@ jobs:
 
     - name: Push the Docker image
       run: |
-        docker push fernandoblesa/docker-graphql:0.0.3 .
+        docker push fernandoblesa/docker-graphql:0.0.3
 
         
