@@ -26,6 +26,7 @@ jobs:
         format: "${major}.${minor}.${patch}-prerelease${increment}"
       id: versionSemantica   
 
+
     - name: Docker login
       env:
         DOCKER_USER: ${{ secrets.DOCKER_USER }}
